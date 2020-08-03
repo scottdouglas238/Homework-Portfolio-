@@ -1,0 +1,68 @@
+body {
+    background-image: url(https://ak.picdn.net/shutterstock/videos/1008778427/thumb/1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow: scroll;
+}
+.btn1 {
+    margin-left: 750px;
+}
+.btn2 {
+    margin-left: 0px;
+}
+.btn2 {
+    margin-left: 0px;
+}
+.btn-secondary {
+    margin-left: 700px;
+}
+.navbar-brand{
+    background-color: teal;
+    color: white;
+    text-align: left;
+    display: inline;
+    margin-left: 5px;
+    padding: 5px;
+    position: fixed;
+}
+.container {
+    position: relative;
+    margin-left: 40px;
+    margin-top: 60px;
+    background-color: #333;
+    max-width: 500px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+
+}
+h2 {
+    color: teal;
+    font-weight: bold;
+}
+hr {
+    background-color: white;
+}
+.row {
+    margin-bottom: 28px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: teal;
+    padding: 15px;
+    position: fixed;
+}
+@media screen and (max-width: 768px){
+    .clearfix:after { 
+        content: "";
+        visibility: hidden;
+        display: block;
+        height: 0;
+        clear: both;
+      }
+    }
+}
